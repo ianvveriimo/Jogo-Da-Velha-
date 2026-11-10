@@ -17,3 +17,12 @@ while opcao != "4":
     print("4 - Sair")
 
     opcao = input("Escolha uma opcao: ")
+tabuleiro = [
+    [" ", " ", " "],
+    [" ", " ", " "],
+    [" ", " ", " "]
+]
+
+jogador = "X"
+venceu = False
+vazias = 9
