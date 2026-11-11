@@ -43,3 +43,11 @@ for i in range(3):
 
     if i < 2:
         print("   -----------")
+elif opcao == "2":
+
+    print("\n===== REGRAS =====")
+    print("Dois jogadores participam.")
+    print("O jogador X comeca.")
+    print("Cada jogador escolhe uma linha e coluna.")
+    print("Vence quem completar tres simbolos iguais.")
+    print("O jogo pode terminar empatado.")
