@@ -26,3 +26,20 @@ tabuleiro = [
 jogador = "X"
 venceu = False
 vazias = 9
+print("\n    1   2   3")
+
+for i in range(3):
+
+    print(i + 1, end="   ")
+
+    for j in range(3):
+
+        print(tabuleiro[i][j], end="")
+
+        if j < 2:
+            print(" | ", end="")
+
+    print()
+
+    if i < 2:
+        print("   -----------")
