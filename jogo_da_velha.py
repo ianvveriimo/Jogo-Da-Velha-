@@ -164,3 +164,18 @@ if vazias == 0 and venceu == False:
     total_partidas = total_partidas + 1
 
     partida_encerrada = True
+    if venceu == True:
+
+    print("Jogador", jogador, "venceu!")
+
+    total_partidas = total_partidas + 1
+
+    if jogador == "X":
+
+        vitorias_x = vitorias_x + 1
+
+    else:
+
+        vitorias_o = vitorias_o + 1
+
+    partida_encerrada = True
