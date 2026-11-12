@@ -120,3 +120,29 @@ for i in range(3):
         tabuleiro[i][2] == jogador):
 
         venceu = True
+diagonal_principal = True
+diagonal_secundaria = True
+
+for i in range(3):
+
+    if tabuleiro[i][i] != jogador:
+
+        diagonal_principal = False
+
+    if tabuleiro[i][2 - i] != jogador:
+
+        diagonal_secundaria = False
+
+for j in range(3):
+
+    if (tabuleiro[0][j] == jogador and
+        tabuleiro[1][j] == jogador and
+        tabuleiro[2][j] == jogador):
+
+        venceu = True
+
+if diagonal_principal == True:
+    venceu = True
+
+if diagonal_secundaria == True:
+    venceu = True
