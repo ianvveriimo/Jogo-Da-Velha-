@@ -104,3 +104,10 @@ else:
 
     tabuleiro[linha][coluna] = jogador
     vazias = vazias - 1
+if partida_encerrada == False:
+
+    if jogador == "X":
+        jogador = "O"
+
+    else:
+        jogador = "X"
