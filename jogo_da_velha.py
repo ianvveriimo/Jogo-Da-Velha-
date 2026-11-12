@@ -146,3 +146,21 @@ if diagonal_principal == True:
 
 if diagonal_secundaria == True:
     venceu = True
+vazias = 0
+
+for i in range(3):
+
+    for j in range(3):
+
+        if tabuleiro[i][j] == " ":
+
+            vazias = vazias + 1
+
+if vazias == 0 and venceu == False:
+
+    print("A partida terminou empatada!")
+
+    empates = empates + 1
+    total_partidas = total_partidas + 1
+
+    partida_encerrada = True
