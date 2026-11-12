@@ -95,3 +95,12 @@ while coluna_valida == False:
     if coluna_valida == False:
 
         print("Coluna invalida!")
+if tabuleiro[linha][coluna] != " ":
+
+    print("Casa ocupada!")
+    print("Escolha outra posicao.")
+
+else:
+
+    tabuleiro[linha][coluna] = jogador
+    vazias = vazias - 1
