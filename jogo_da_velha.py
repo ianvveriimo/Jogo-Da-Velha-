@@ -111,3 +111,12 @@ if partida_encerrada == False:
 
     else:
         jogador = "X"
+venceu = False
+
+for i in range(3):
+
+    if (tabuleiro[i][0] == jogador and
+        tabuleiro[i][1] == jogador and
+        tabuleiro[i][2] == jogador):
+
+        venceu = True
