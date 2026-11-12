@@ -179,3 +179,23 @@ if vazias == 0 and venceu == False:
         vitorias_o = vitorias_o + 1
 
     partida_encerrada = True
+    pontos_x = 0
+pontos_o = 0
+
+vitorias_necessarias = 2
+
+if jogador == "X" and venceu == True:
+
+    pontos_x = pontos_x + 1
+
+elif jogador == "O" and venceu == True:
+
+    pontos_o = pontos_o + 1
+
+if pontos_x >= vitorias_necessarias:
+
+    print("JOGADOR X VENCEU O CAMPEONATO!")
+
+elif pontos_o >= vitorias_necessarias:
+
+    print("JOGADOR O VENCEU O CAMPEONATO!")
