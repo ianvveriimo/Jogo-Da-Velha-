@@ -79,3 +79,19 @@ while linha_valida == False:
     if linha_valida == False:
 
         print("Linha invalida!")
+coluna_valida = False
+
+while coluna_valida == False:
+
+    entrada_coluna = input("Digite a coluna (1 a 3): ")
+
+    for n in range(1, 4):
+
+        if entrada_coluna == str(n):
+
+            coluna = n - 1
+            coluna_valida = True
+
+    if coluna_valida == False:
+
+        print("Coluna invalida!")
