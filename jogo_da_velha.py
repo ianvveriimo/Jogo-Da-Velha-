@@ -58,3 +58,8 @@ elif opcao == "3":
     print("Vitorias O:", vitorias_o)
     print("Empates:", empates)
     print("Total de partidas:", total_partidas)
+partida_encerrada = False
+
+while partida_encerrada == False:
+
+    print("\nVez do jogador:", jogador)
