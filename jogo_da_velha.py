@@ -63,3 +63,19 @@ partida_encerrada = False
 while partida_encerrada == False:
 
     print("\nVez do jogador:", jogador)
+linha_valida = False
+
+while linha_valida == False:
+
+    entrada_linha = input("Digite a linha (1 a 3): ")
+
+    for n in range(1, 4):
+
+        if entrada_linha == str(n):
+
+            linha = n - 1
+            linha_valida = True
+
+    if linha_valida == False:
+
+        print("Linha invalida!")
