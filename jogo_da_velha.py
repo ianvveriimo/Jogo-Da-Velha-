@@ -51,3 +51,10 @@ elif opcao == "2":
     print("Cada jogador escolhe uma linha e coluna.")
     print("Vence quem completar tres simbolos iguais.")
     print("O jogo pode terminar empatado.")
+elif opcao == "3":
+
+    print("\n===== PLACAR =====")
+    print("Vitorias X:", vitorias_x)
+    print("Vitorias O:", vitorias_o)
+    print("Empates:", empates)
+    print("Total de partidas:", total_partidas)
